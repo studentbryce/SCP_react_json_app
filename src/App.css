@@ -251,7 +251,7 @@ h1 {
     padding-top: 0; /* Remove padding for vertical layout */
   }
 
-  .navbar a {
+  .navbar button {
     padding: 0px 8px; /* Adjust padding for better button size */
     font-size: 12px; /* Slightly smaller font size */
   }
