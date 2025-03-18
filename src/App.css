@@ -223,7 +223,7 @@ h1 {
   .navbar li {
     margin: 5px 0; /* Adjust margin between items */
     margin-top: 15px; /* Add top margin */
-    padding-top: 5; /* Remove padding for vertical layout */
+    padding-top: 5px; /* Remove padding for vertical layout */
   }
 
   .navbar button {
