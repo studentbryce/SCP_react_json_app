@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css"; // Import the CSS file
 
 // Function to get the image path from the public folder
-const getImagePath = (imageName) => `/SCP_react_application/images/${imageName}`;
+const getImagePath = (imageName) => `/SCP_react_json_app/images/${imageName}`;
 
 const Homepage = ({ data, onSelect }) => {
   return (
