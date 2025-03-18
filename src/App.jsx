@@ -11,7 +11,7 @@ const App = () => {
   const [error, setError] = useState(null); // Track errors
 
   useEffect(() => {
-    fetch(`${process.env.PUBLIC_URL}/data.json`)
+    fetch(`/SCP_react_json_app/data.json`)
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         return response.json();
