@@ -220,8 +220,13 @@ h1 {
     border-radius: 6px;
   }
 
+  .navbar {
+    height: auto; /* Allow height to adjust */
+    padding: 5px 15px; /* Add some padding for better spacing */
+  }
+
   .navbar li {
-    margin: 5px 0; /* Adjust margin between items */
+    margin: 5px 10px; /* Adjust margin between items */
     margin-top: 15px; /* Add top margin */
     padding-top: 5px; /* Remove padding for vertical layout */
   }
@@ -263,7 +268,7 @@ h1 {
   }
 
   .navbar button {
-    padding: 2px 8px; /* Adjust padding for better button size */
+    padding: 4px 8px; /* Adjust padding for better button size */
     font-size: 12px; /* Slightly smaller font size */
   }
 
