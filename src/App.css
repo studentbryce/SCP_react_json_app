@@ -203,7 +203,7 @@ h1 {
 
 @media (max-width: 1200px) {
   body {
-    padding: 0; /* Remove padding to fit screen */
+    padding: 10px; /* Padding to fit screen */
   }
 
   .container {
@@ -222,7 +222,7 @@ h1 {
 
   .navbar {
     height: auto; /* Allow height to adjust */
-    padding: 10px 18px; /* Add some padding for better spacing */
+    padding: 10px 12px; /* Add some padding for better spacing */
   }
 
   .navbar li {
