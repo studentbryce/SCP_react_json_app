@@ -61,7 +61,7 @@ body {
   font-family: "Special Elite", system-ui;
 }
 
-.navbar a:hover {
+.navbar button:hover {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
 }
