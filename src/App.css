@@ -227,7 +227,7 @@ h1 {
   }
 
   .navbar button {
-    padding: 0px 8px; /* Adjust padding for better button size */
+    padding: 5px 8px; /* Adjust padding for better button size */
     font-size: 18px; /* Slightly smaller font size */
   }
 }
@@ -263,7 +263,7 @@ h1 {
   }
 
   .navbar button {
-    padding: 0px 8px; /* Adjust padding for better button size */
+    padding: 2px 8px; /* Adjust padding for better button size */
     font-size: 12px; /* Slightly smaller font size */
   }
 
