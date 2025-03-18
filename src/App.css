@@ -219,6 +219,11 @@ h1 {
     margin: 10px auto;
     border-radius: 6px;
   }
+
+  .navbar button {
+    padding: 0px 8px; /* Adjust padding for better button size */
+    font-size: 18px; /* Slightly smaller font size */
+  }
 }
 
 @media (max-width: 600px) {
