@@ -158,7 +158,7 @@ h1 {
 
 /* Card Title */
 .card h2 {
-  font-size: 30px;
+  font-size: 36px;
   font-family: "Special Elite", system-ui;
   color: #dddddd;
   text-align: center;
@@ -264,7 +264,7 @@ h1 {
   .navbar li {
     margin: 5px 10px; /* Adjust margin between items */
     margin-top: 15px; /* Add top margin */
-    padding-top: 5px; /* Remove padding for vertical layout */
+    padding-top: 8px; /* Remove padding for vertical layout */
   }
 
   .navbar button {
