@@ -237,9 +237,9 @@ h1 {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   body {
-    padding: 0; /* Remove padding to fit screen */
+    padding: 5px; /* Remove padding to fit screen */
   }
 
   .container {
@@ -273,18 +273,18 @@ h1 {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body {
-    padding: 0; /* Remove padding to fit screen */
+    padding: 2px; /* Remove padding to fit screen */
   }
 
   .container {
-    padding: 15px; /* Adjust padding on small screens */
+    padding: 10px; /* Adjust padding on small screens */
   }
 
   .homepage-item {
     width: 95%; /* Allow more space */
-    padding: 12px; /* Adjust padding */
+    padding: 10px; /* Adjust padding */
   }
 
   .scp-image {
@@ -306,6 +306,58 @@ h1 {
   .navbar button {
     padding: 4px 8px; /* Adjust padding for better button size */
     font-size: 12px; /* Slightly smaller font size */
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+  }
+  
+  .card p, ul {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  body {
+    padding: 1px; /* Padding to fit screen */
+  }
+
+  .container {
+    padding: 10px; /* Adjust padding on small screens */
+  }
+
+  .homepage-item {
+    width: 95%; /* Allow more space */
+    padding: 5px; /* Adjust padding */
+  }
+
+  .scp-image {
+    margin: 10px auto;
+    border-radius: 6px;
+  }
+
+  .navbar {
+      height: auto; /* Allow height to adjust */
+      padding: 3px 0; /* Add some padding for better spacing */
+    }
+
+  .navbar li {
+    margin: 2px 0; /* Adjust margin between items */
+    margin-top: 5px; /* Add top margin */
+    padding-top: 2px; /* padding for vertical layout */
+  }
+
+  .navbar button {
+    padding: 2px 5px; /* Adjust padding for better button size */
+    font-size: 10px; /* Slightly smaller font size */
   }
 
   h1 {
