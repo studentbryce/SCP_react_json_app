@@ -1,0 +1,274 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  padding: 0; /* Removed padding to prevent overflow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-image {
+  width: 100%; /* Full width */
+  max-height: 300px; /* Limit height */
+  object-fit: cover; /* Ensures it covers the space properly */
+  border-bottom: 5px solid #222; /* Optional: Adds a dark border */
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Special Elite", system-ui;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 20px;
+  padding-top: 30px;
+}
+
+/* Styling the Link components directly */
+.navbar button {
+  color: white; /* Ensure the text is white */
+  text-decoration: none; /* Remove the underline */
+  font-size: 30px;
+  padding: 10px;
+  padding-top: 15px;
+  transition: 0.3s;
+  border: none;
+  background: none;
+  font-family: "Special Elite", system-ui;
+}
+
+.navbar button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+
+.homepage {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  gap: 20px; /* Space between items */
+  margin-top: 20px;
+}
+
+.homepage-item {
+  width: 90%; /* Adjust width */
+  height: auto; /* Adjust height */
+  max-width: 600px; /* Limit max width */
+  background-color: #222;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.2);
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.homepage-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 16px rgba(255, 255, 255, 0.3);
+}
+
+.homepage-item a {
+  text-decoration: none; /* Remove the underline */
+  color: inherit; /* Inherit the color from parent */
+}
+
+.homepage-image {
+  width: 100%; /* Make images responsive */
+  max-width: 500px; /* Limit max width */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.homepage-item h2 {
+  color: white;
+  font-family: "Special Elite", system-ui;
+  font-size: 22px;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+/* Container for the JSON Items */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 2px solid #666;
+  box-sizing: border-box; /* Ensures padding doesn't add to width */
+}
+
+/* Heading */
+h1 {
+  font-family: "Special Elite", system-ui;
+  font-size: 42px;
+  color: #dddddd;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Card Layout */
+.card {
+  background-color: #222;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(255, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border-left: 2px solid #ff0000;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 6px 6px 16px rgba(255, 0, 0, 0.3);
+}
+
+/* Card Content */
+.card-content {
+  padding: 10px;
+}
+
+/* Card Title */
+.card h2 {
+  font-size: 30px;
+  font-family: "Special Elite", system-ui;
+  color: #dddddd;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-family: "Special Elite", system-ui;
+  color: #dddddd;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* Card Description */
+.card p, ul {
+  font-size: 16px;
+  color: #dddddd;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.error-message {
+  color: #d8000c;
+  padding: 12px;
+  margin: 15px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 2px 6px rgba(255, 0, 0, 0.2);
+}
+
+.scp-image {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 1200px) {
+  body {
+    padding: 0; /* Remove padding to fit screen */
+  }
+
+  .container {
+    padding: 15px; /* Adjust padding on small screens */
+  }
+
+  .homepage-item {
+    width: 95%; /* Allow more space */
+    padding: 12px; /* Adjust padding */
+  }
+
+  .scp-image {
+    margin: 10px auto;
+    border-radius: 6px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0; /* Remove padding to fit screen */
+  }
+
+  .container {
+    padding: 15px; /* Adjust padding on small screens */
+  }
+
+  .homepage-item {
+    width: 95%; /* Allow more space */
+    padding: 12px; /* Adjust padding */
+  }
+
+  .scp-image {
+    margin: 10px auto;
+    border-radius: 6px;
+  }
+
+  .navbar {
+      height: auto; /* Allow height to adjust */
+      padding: 5px 0; /* Add some padding for better spacing */
+    }
+
+  .navbar li {
+    margin: 2px 0; /* Adjust margin between items */
+    margin-top: 10px; /* Add top margin */
+    padding-top: 0; /* Remove padding for vertical layout */
+  }
+
+  .navbar a {
+    padding: 0px 8px; /* Adjust padding for better button size */
+    font-size: 12px; /* Slightly smaller font size */
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .card h2 {
+    font-size: 20px;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+  }
+  
+  .card p, ul {
+    font-size: 16px;
+  }
+}
